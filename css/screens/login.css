@@ -1,0 +1,55 @@
+.welcome-header {
+  margin: 90px 0px; /*스타투스바와 헤더 사이의 간격. 아래 form들과 헤더 사이의 간격*/
+  text-align: center; /*헤더의 문장스타일을 가운데정렬로*/
+  display: flex; /*플렉스를 해주어서 가로로 정렬되게*/
+  flex-direction: column; /*일자로 펴져있는 속성을 세로속성으로 변경*/
+  align-items: center; /*헤더의 모든 박스들을 가운데로 모음*/
+}
+.welcome-header__title {
+  margin-bottom: 20px; /*타이틀과 텍스트 사이의 간격*/
+  font-size: 25px;
+}
+.welcome-header__text {
+  width: 60%; /*가로 전체의 60%를 사용*/
+  opacity: 0.7; /*헤더의 텍스트 진하기를 옅게 함*/
+}
+
+#Login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#Login-form input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px; /*input들 사이의 마진*/
+}
+
+#Login-form input:not([type="Submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  transition: border-color 0.3s ease-in-out; /*input을 클릭했을 때 밑에 줄이 바뀌는 방식을 설정*/
+}
+
+#Login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#Login-form input:focus {
+  border-color: var(--yellow);
+}
+
+#Login-form input[type="Submit"] {
+  background-color: var(--yellow);
+  cursor: pointer; /*커서를 댔을때 포인터로 바뀐다*/
+  padding: 20px 0px; /*버튼크기 늘림*/
+  border-radius: 5px; /*모서리를 둥글게 만듦*/
+}
+
+#Login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}

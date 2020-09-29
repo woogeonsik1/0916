@@ -1,0 +1,20 @@
+.screen-header {
+  position: fixed;
+  top: 26px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* 가로로 중앙에 위치*/
+  padding: var(--hor-space);
+  background-color: white;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 1000;
+}
+
+.screen-header__icons span {
+  margin-left: 20px;
+}

@@ -1,0 +1,19 @@
+.setting-setting i {
+  width: 25px;
+  height: 25px;
+}
+.setting-setting span {
+  margin-left: 10px;
+}
+.setting-setting {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.setting-setting__column:last-child {
+  opacity: 0.5;
+}

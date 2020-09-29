@@ -17,3 +17,7 @@
 .setting-setting__column:last-child {
   opacity: 0.5;
 }
+
+.setting-list {
+  padding-top: 95px;
+}

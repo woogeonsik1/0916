@@ -5,6 +5,7 @@
 @import "screens/login.css";
 @import "screens/find.css";
 @import "screens/setting.css";
+@import "screens/chat.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/friends.css";

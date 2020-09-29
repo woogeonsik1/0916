@@ -1,4 +1,7 @@
 .alt-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
   margin-top: 23px;
   padding: var(--hor-space);
   display: flex;

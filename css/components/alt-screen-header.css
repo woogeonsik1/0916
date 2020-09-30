@@ -8,6 +8,7 @@
   align-items: center; /*가로로 가운데*/
   font-size: 23px;
   font-weight: 1000;
+  background-color: white;
 }
 
 .alt-header__column {

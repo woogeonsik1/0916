@@ -28,6 +28,7 @@
 .message-row {
   width: 100%;
   display: flex;
+  margin-bottom: 20px;
 }
 
 .message-row img {
@@ -65,4 +66,20 @@
 .message__info i {
   position: absolute;
   color: white;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+
+.message-row--own .message__info {
+  justify-content: flex-end;
+}
+
+.message-row--own .message__info i {
+  color: var(--yellow);
+}
+
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
 }

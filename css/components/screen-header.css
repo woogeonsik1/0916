@@ -8,6 +8,7 @@
   align-items: center; /* 가로로 중앙에 위치*/
   padding: var(--hor-space);
   background-color: white;
+  z-index: 1;
 }
 
 .screen-header__title {

@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px; /*스타투스바의 위,아래에 패딩을 준다*/
+  z-index: 1;
 }
 
 .status-bar__columm {
